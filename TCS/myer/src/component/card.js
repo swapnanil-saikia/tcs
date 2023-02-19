@@ -5,7 +5,7 @@ const Card = (props) => {
 
     return (
         <Link to='/stocktake' className='carditem'>
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQewHwkcJoOEXYfrtePpknfuuNB6NTLHk1Cxh_E5xnblA&usqp=CAU&ec=48600113'></img>
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx5srquXBoEy_7zjBCGeOPCbp3xqhC4S_X3l96rFa3Vg&usqp=CAU&ec=48600113' />
             <div>{props.name}</div>
         </Link>
     )
